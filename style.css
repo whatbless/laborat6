@@ -20,12 +20,6 @@ h1 {
     z-index: 10;
 }
 
-h2 {
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .col-sm-6 img {
     border-radius: 10px;
     width: 40%;
@@ -51,12 +45,58 @@ h2 {
     margin-top: 20px;
 }
 
-.col-lg-6 p {
-    margin: 10px;
+h2 {
+    text-align: center;
 }
 
 .table-container {
     margin: 40px;
     margin-top: 10px;
     border: 1px solid grey;
+}
+
+.navbar {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0056b3;
 }

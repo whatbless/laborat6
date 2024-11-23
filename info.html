@@ -10,17 +10,15 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <p class="navbar-brand">Панель навигации</p>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="info.html">Главная</a>
-              <a class="nav-link" href="films.html">Фильмы</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar">
+    <div class="container">
+        <a class="logo" href="#">Александр Невский</a>
+        <ul class="nav-links">
+            <li><a href="info.html">Главная</a></li>
+            <li><a href="films.html">Фильмы</a></li>
+        </ul>
+    </div>
+</nav>
       <div class="col-md-9 w-100">
       <div class="carousel-container">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -95,7 +93,7 @@
             </div>
         </div>
 
-        <div id="infoSection" class="mt-4">
+        <div id="infoSection" class="d-flex row justify-center">
             <h2>Краткая информация</h2>
             <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapseInfo" aria-expanded="false" aria-controls="collapseInfo">
                 Показать/Скрыть информацию
